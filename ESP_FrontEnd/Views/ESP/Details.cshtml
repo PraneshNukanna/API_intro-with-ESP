@@ -9,7 +9,14 @@
     {
 
         <h4>Schedule for @Model.info.name in @Model.info.region</h4>
-        <h5>Currently @Model.events[0].note since @Model.events[0].start until @Model.events[0].end</h5>
+            if (Model.events.Count != 0)
+            {
+                <h5>Currently @Model.events[0].note since @Model.events[0].start until @Model.events[0].end</h5>
+            } else
+            {
+                <h5>Currently not load shedding.</h5>
+            }
+
         
         <table class="table">
             <thead>
