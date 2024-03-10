@@ -1,7 +1,5 @@
 ﻿using ESP_FrontEnd.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Text.Json;
 
 namespace ESP_FrontEnd.Controllers
